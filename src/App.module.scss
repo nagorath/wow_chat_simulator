@@ -1,0 +1,28 @@
+.site_container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212226;
+  flex-direction: column; 
+  .instructions_btn{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    transition: 2s ease;
+    &:hover{
+      height: 38px;
+      width: 155px;
+    }
+  }
+  .header{
+    margin-bottom: 50px;
+    font-size: 35px;
+    color: white;
+  }
+}
+
+
+
+
